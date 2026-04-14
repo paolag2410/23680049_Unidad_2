@@ -269,4 +269,9 @@ En esta unidad se comprendió la importancia de utilizar componentes y librería
 
 Además, la creación de componentes personalizados permite reutilizar código y mejorar la calidad del desarrollo, mientras que las librerías externas amplían significativamente las capacidades del sistema.
 
-
+---
+##  Bibliografía
+- Python Software Foundation. (2024). Python documentation. https://docs.python.org/3/
+- Flet. (2024). Flet documentation. https://flet.dev/docs/
+- Matplotlib Development Team. (2023). Matplotlib documentation. https://matplotlib.org/stable/index.html
+- Wes McKinney. (2022). Python for Data Analysis (3rd ed.). O’Reilly Media.
