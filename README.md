@@ -1,8 +1,19 @@
-# 📘 Unidad 2: Componentes y Librerías
+#  Unidad 2: Componentes y Librerías
 
-## 📌 Descripción
+##  Descripción
 
 Este repositorio contiene los ejemplos desarrollados durante la **Unidad 2: Componentes y Librerías**, donde se aplican conceptos fundamentales como el uso de librerías, creación de componentes reutilizables y estructuración de interfaces gráficas con Python utilizando Flet.
+
+El objetivo principal de esta unidad es comprender cómo **organizar el código de manera modular**, reutilizar componentes y aprovechar herramientas externas para mejorar el desarrollo de software.
+
+---
+
+##  Objetivos de la unidad
+
+* Comprender qué son los componentes y librerías
+* Utilizar librerías externas en proyectos reales
+* Crear componentes reutilizables
+* Organizar aplicaciones de forma modular
 
 ---
 
@@ -10,20 +21,34 @@ Este repositorio contiene los ejemplos desarrollados durante la **Unidad 2: Comp
 
 ###  2.1 Definición conceptual
 
-Los **componentes** son bloques reutilizables que permiten construir interfaces y funcionalidades.
-Las **librerías o paquetes** son conjuntos de código ya creado que facilitan el desarrollo.
+Los **componentes** son bloques reutilizables de código que encapsulan una funcionalidad específica. Permiten dividir una aplicación en partes más pequeñas, facilitando su mantenimiento y reutilización.
 
-En esta unidad se utilizaron:
+Las **librerías o paquetes** son colecciones de funciones y herramientas previamente desarrolladas que ayudan a resolver problemas comunes sin necesidad de programar todo desde cero.
 
-* `flet` → Interfaces gráficas
-* `matplotlib` → Gráficas
-* `random` → Valores aleatorios
+ **Importancia:**
+
+* Reducen el tiempo de desarrollo
+* Mejoran la organización del código
+* Facilitan la reutilización
+
+ **Librerías utilizadas en esta unidad:**
+
+* `flet` → Creación de interfaces gráficas modernas
+* `matplotlib` → Generación de gráficas
+* `random` → Generación de valores aleatorios
+* `base64` → Conversión de imágenes
 
 ---
 
 ###  2.2 Uso de librerías
 
-Ejemplo de uso de librerías externas para crear una aplicación interactiva.
+En este apartado se demuestra cómo integrar librerías externas para crear aplicaciones completas con interfaz gráfica y lógica funcional.
+
+ **Conceptos aplicados:**
+
+* Eventos (clic en botones)
+* Interacción usuario-sistema
+* Uso de lógica condicional
 
 ####  Juego: Piedra, Papel o Tijera
 
@@ -105,11 +130,20 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
+ **Análisis:**
+Este programa demuestra cómo una librería permite crear interfaces dinámicas y cómo se integra lógica interna (condiciones y aleatoriedad).
+
 ---
 
 ###  2.3 Componentes definidos por el usuario
 
-Creación de componentes reutilizables.
+Aquí se desarrollan componentes personalizados que pueden reutilizarse múltiples veces dentro de una aplicación.
+
+ **Ventajas:**
+
+* Evita repetir código
+* Mejora la organización
+* Facilita escalabilidad
 
 ####  Tarjeta de perfil
 
@@ -147,11 +181,20 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
+ **Análisis:**
+Se crea una clase que encapsula estructura, estilo y comportamiento en un solo componente reutilizable.
+
 ---
 
 ###  2.4 Uso de componentes reutilizables
 
-Ejemplo tipo catálogo usando componentes personalizados.
+Se implementan componentes dentro de estructuras más grandes simulando aplicaciones reales.
+
+ **Conceptos aplicados:**
+
+* Reutilización
+* Organización en listas
+* Interfaces dinámicas
 
 ```python
 import flet as ft
@@ -177,11 +220,20 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
+ **Análisis:**
+Se demuestra cómo un componente puede ser reutilizado para mostrar múltiples elementos dinámicamente.
+
 ---
 
 ###  Ejemplo adicional: Dashboard con gráficas
 
-Uso de múltiples librerías.
+Este ejemplo integra múltiples librerías para crear una aplicación más completa.
+
+ **Conceptos aplicados:**
+
+* Integración de librerías
+* Visualización de datos
+* Conversión de imágenes
 
 ```python
 import flet as ft
@@ -189,6 +241,9 @@ import matplotlib.pyplot as plt
 
 # Código simplificado de gráficas
 ```
+
+ **Análisis:**
+Se combinan diferentes herramientas para crear dashboards visuales, lo cual es común en aplicaciones reales.
 
 ---
 
@@ -210,4 +265,8 @@ python nombre_archivo.py
 
 ##  Conclusión
 
-El uso de componentes y librerías permite desarrollar aplicaciones más rápidas, organizadas y reutilizables. Además, facilita la creación de interfaces modernas y funcionales.
+En esta unidad se comprendió la importancia de utilizar componentes y librerías en el desarrollo de software moderno. Gracias a estas herramientas, es posible crear aplicaciones más eficientes, organizadas y escalables.
+
+Además, la creación de componentes personalizados permite reutilizar código y mejorar la calidad del desarrollo, mientras que las librerías externas amplían significativamente las capacidades del sistema.
+
+
